@@ -1,0 +1,2 @@
+# odin-landing-page
+This is my second mini project for The Odin Project foundations course. This will serve as a learning activity that will showcase everything I have learned in HTML and CSS from the previous lessons.
