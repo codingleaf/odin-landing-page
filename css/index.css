@@ -173,6 +173,55 @@ body {
   justify-content: flex-end;
 }
 
+.signup-banner {
+  display: flex;
+  justify-content: center;
+}
+
+.banner {
+  background-color: #3882F6;
+  border-radius: 0.3rem;
+  padding: 2rem 4rem;
+  max-width: 700px;
+  flex: 1;
+}
+
+.banner-content,
+.banner-text,
+.button-box {
+  display: flex;
+}
+
+.banner-content {
+  gap: 1rem;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.banner-text {
+  flex-direction: column;
+}
+
+.banner-text > .maintext {
+  color: white;
+  font-weight: bold;
+}
+
+.banner-text > .subtext {
+  color: #E5E7EB;
+  font-size: 0.8rem;
+}
+
+.banner .signup-button {
+  color: white;
+  border: 0.1rem solid white;
+  border-radius: 0.2rem;
+  text-align: center;
+  padding: 0.15rem 1rem;
+  font-weight: bold;
+  font-size: 0.8rem;
+}
+
 .page-footer {
   justify-content: center;
   background-color: #1F2937;
